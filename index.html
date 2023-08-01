@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="assets/logo_coffe.svg">
+
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#Produtos" class="nav-link">Produtos</a>
+                </li>
+                <li>
+                    <a href="#Localizacao" class="nav-link">Localização</a>
+                </li>
+                <li>
+                    <a href="#Referencias" class="nav-link">Referências</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="cart.html">
+            <img id="cart-icon" src="assets/icons_cart.svg">
+        </a>
+    </header>
+    <main>
+        <div id="Sobre">
+            <h1>Cafe Street</h1>
+            <p id="underline"></p>
+            <div id="slogan">
+                <h3><em>"</em></h3>
+                <p id="slogan"><em>Café é sempre uma boa ideia.</em></p>
+                <h3><em>"</em></h3>
+            </div>
+        </div>
+        <div id="Produtos">
+            <h1>Nossos produtos</h1>
+
+            <div class="products">
+                <div class="product">
+                    <img class="product-img" src="assets/sandwich.png">
+                    <h4 class="product-name">Sanduíche</h4>
+                    <p class="description">Pão com carne e legumes.</p>
+                    <p class="product-price">R$ 7,00</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="assets/hot-milk.png">
+                    <h4 class="product-name">Leite quente</h4>
+                    <p class="product-price">R$ 16,50</p>
+                    <p class="product-description">Leite quente com açúcar.</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="assets/coffee-ice-cream.png">
+                    <h4 class="product-name">Café com sorvete</h4>
+                    <p class="product-price">R$ 16,50</p>
+                    <p class="product-description">Café com sorvete de baunilha.</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="assets/cappucino.png">
+                    <h4 class="product-name">Cappucino</h4>
+                    <p class="product-price">R$ 14,00</p>
+                    <p class="product-description">Cappucino quente.</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="assets/moccacino.png">
+                    <h4 class="product-name">Moccacino</h4>
+                    <p class="product-price">R$ 14,00</p>
+                    <p class="product-description">Moccacino quente.</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="assets/waffle-ice-cream.png">
+                    <h4 class="product-name">Waffle</h4>
+                    <p class="product-price">R$ 9,50</p>
+                    <p class="product-description">Waffle com sorvete.</p>
+                    <button>
+                        <img class="cart-product" src="assets/product-cart.svg">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="Localizacao">
+            <h1>Nossa Localização</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117026.10644589673!2d-46.65789260273433!3d-23.566079199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67b114e9503f%3A0xfd9fdda050bfb34c!2sStarbucks!5e0!3m2!1spt-BR!2sbr!4v1690487299527!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer id="Referencias">
+        <p>
+            As imagens utilizadas nesse projeto podem ser vistas
+            <a target="_blank" href="https://www.figma.com/community/file/1138256358581554095/Cafe-Street---E-Commerce-Landing-Page">
+                aqui</a>.
+        </p><br/>
+
+        <p>Desenvolvido com 🤍 por <a target="_blank" href="https://www.linkedin.com/in/yasmin-soraya/">Yasmin Soraya</a>.</p>
+    </footer>
+</body>
+</html>
